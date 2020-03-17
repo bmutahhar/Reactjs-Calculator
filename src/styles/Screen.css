@@ -1,0 +1,30 @@
+.screen {
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--color-light-black);
+    background-color: #f1eaef;
+    box-shadow: 0 10px 30px var(--shadow);
+}
+
+.result-screen {
+    height: 18vh;
+    font-size: 8rem;
+    font-weight: 600;
+    /* To display the value at the bottom-right of the container */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.equation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+
+    /* To display the value at the bottom-right of the container */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
