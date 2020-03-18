@@ -3,7 +3,8 @@
     height: 100%;
     font-size: 3rem;
     font-family: inherit;
-    background-color: var(--color-black);
+    /*background-color: var(--color-black);*/
+    background-color: #0d0d0d;
     color: var(--color-white);
     border: 1px solid azure ;
     outline: none;
@@ -29,7 +30,7 @@
 }
 .btn-special:hover {
     color: var(--color-black);
-    background-color: var(--color-light-blue);
+    background-color: var(--color-light-white);
 }
 
 .btn-special:active {
