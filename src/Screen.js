@@ -14,12 +14,15 @@ class Screen extends Component {
 
 export default Screen;
 
+//Function based component for result screen
+//props.children is used to display whatever is being passed between <component></component> tags
 const Result = props => (
     <div className="result-screen">
        {props.children}
     </div>
 );
 
+//Function based component for display the equation
 const Equation =props => (
     <div className="equation-screen">
         {props.children}

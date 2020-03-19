@@ -5,7 +5,9 @@ import './styles/Keypad.css'
 
 class Keypad extends Component {
 
-
+    //The keypad consists of 5 rows so it's better to create a row component.
+    //Each row consists of multiple button components and the equal button is large as compared to other buttons so it's
+    //an independent component
     render() {
         return (
             <section className="keypad" id="keypad">
@@ -51,6 +53,7 @@ class Keypad extends Component {
 }
 export default Keypad;
 
+//KeypadRow component to manage multiple rows in the keypad, each row consists multiple buttons
 const KeypadRow = (props) => (
     <div className="keypad-row">
         {props.children}

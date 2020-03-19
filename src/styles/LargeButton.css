@@ -4,7 +4,7 @@
     font-size: 3rem;
     font-family: inherit;
     background-color: #222222;
-    color: var(--color-white);
+    color: white;
     border: 1px solid azure;
     outline: none;
     display: flex;
@@ -14,6 +14,6 @@
 }
 
 .large-button:hover {
-    background-color: var(--color-light-white);
-    color: var(--color-black);
+    background-color: #eeeeee;
+    color: black;
 }

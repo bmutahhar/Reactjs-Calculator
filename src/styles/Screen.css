@@ -4,9 +4,9 @@
     padding: 0 2rem;
     overflow: hidden;
     white-space: nowrap;
-    color: var(--color-light-black);
+    color: #222222;
     background-color: #f1eaef;
-    box-shadow: 0 10px 30px var(--shadow);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
 }
 
 .result-screen {

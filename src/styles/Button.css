@@ -3,22 +3,19 @@
     height: 100%;
     font-size: 3rem;
     font-family: inherit;
-    /*background-color: var(--color-black);*/
     background-color: #0d0d0d;
-    color: var(--color-white);
+    color: white;
     border: 1px solid azure ;
     outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .2s;
-
-
+    transition: all .3s;
 }
 
 .btn:hover {
-    color: var(--color-light-white);
-    background-color: var(--color-light-blue);
+    color: #eeeeee;
+    background-color: #2fa6ff;
 }
 
 .btn:active {
@@ -26,11 +23,11 @@
 }
 .btn-special{
     background-color: #222222;
-    color: var(--color-white);
+    color: white;
 }
 .btn-special:hover {
-    color: var(--color-black);
-    background-color: var(--color-light-white);
+    color: black;
+    background-color: #eeeeee;
 }
 
 .btn-special:active {
@@ -42,7 +39,7 @@
     color: black;
 }
 .btn-operator:hover {
-    color: var(--color-black);
+    color: black;
     background-color: #f56507;
 }
 .btn-operator:active {
